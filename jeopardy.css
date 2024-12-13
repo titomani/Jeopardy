@@ -1,0 +1,80 @@
+body{
+  background-color: #060c39;
+}
+
+header{
+  color: white;
+  text-align: center;
+}
+
+h1{
+font-size: 2em;
+margin: -0.1em;
+}
+
+#startBtn{
+  padding: 1em;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+#table-jeo{
+  text-align: center;
+  background-color: #115ff4;
+  font-size: 9pt;
+  color: white;
+  margin: 0 auto;
+}
+
+#table-jeo th, #table-jeo td{
+  border: solid 1px black;
+  width: 10em;
+  padding: 0.5em;
+}
+
+th{
+  text-transform:uppercase ;
+  font-weight: bold;
+  height: 3em;
+}
+
+td{
+  height: 7em;
+}
+
+#table-jeo td.disabled{
+  background-color: #28a200;
+}
+
+#table-jeo td.disabled:hover{
+  cursor: not-allowed;
+}
+
+
+#table-jeo td:hover{
+  cursor: pointer;
+}
+
+.disabled{
+  cursor: not-allowed;
+}
+
+#loadContainer{
+  font-size: 10em;
+  text-align: center;
+  color: #8d2ab5;
+  margin: 330px;
+  display: none;
+   
+}
+
+
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
