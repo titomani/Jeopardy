@@ -148,7 +148,7 @@ function showLoadingView() {
   $("#table-jeo tbody").empty();
 
   $("#startBtn").addClass("disabled").text("loading...");
-  loadIcon.style.display = 'inline-block'
+  loadIcon.style.display = 'inline'
 }
 
 /** Remove the loading spinner and update the button used to fetch data. */
